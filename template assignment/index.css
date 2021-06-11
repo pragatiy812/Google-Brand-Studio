@@ -1,0 +1,412 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+    padding: 0;
+    text-decoration: none;
+}
+
+#nav-title{
+    color: black;
+    font-family: copperplate;
+    font-size: 50px;
+    font-weight: bolder;
+    padding-left: 20px;
+}
+
+.nav-link{
+    color: black;
+    margin: 0 7px;
+}
+
+.nav-item{
+    font-size: large;
+    margin-top: 10px;
+}
+
+.top-navbar-list{
+    margin-left: 60px;
+}
+
+.nav-dropdown{
+    border: 0px;
+}
+
+.btn-consultation{
+    background-color: rgb(65, 187, 65);
+    border: none;
+    border-radius: 40px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight:bolder;
+    padding: 15px 38px;
+    text-transform: uppercase; 
+}
+
+.nav-btn{
+    margin-left: 50px; 
+}
+    
+/* section2 */
+
+.section2{
+    background-image: url('./images/hero.jpg');
+    background-size: 100% 100%;
+    height:100vh;
+}
+
+.section2-text1{
+    color: white;
+    font: 100px Squada One;
+    padding: 200px 0 0 150px;
+}
+
+.section2-text2{
+    color: green;
+    font: 80px Ubuntu;
+    padding-left:150px;
+}
+
+.btn-section2{
+    margin: 40px 0 0 150px;
+} 
+
+/* Section7 */
+.carousel-item{
+    background-color: yellow;
+    height: 500px;
+}
+
+/* Section3 */
+
+.section3{
+    text-align: center;
+}
+
+.heading-text{
+    color: black;
+    font: 80px Squada One;
+    padding-top: 30px;
+    text-transform: uppercase;
+}
+
+/* Section4 */
+
+
+.section4{
+    background-image: url(./images/hero2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 400px;
+    margin-top: 12px;
+}
+
+.card-section4{
+    margin-top: -200px;
+    width: 65rem;
+}
+
+.arrow-img{
+    left: 1020px;
+    margin-top: -200px;
+    position: relative;
+    top:-200;
+}
+
+.card-title-section4{
+    font: 70px Squada One;
+    padding-right: 50px;
+    text-transform: uppercase;
+}
+
+.card-title-1{
+    color: black;
+}
+
+.card-title-2{
+    color: rgb(65, 187, 65);;
+}
+
+.card-text-section4{
+    font-size: 18px;
+    padding-right: 400px;
+    margin-bottom: 1rem;
+    margin-top: 26px;
+}
+
+
+
+/* Section5 */
+.section5{
+    margin-top: 65px;
+    text-align: center  ;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flexbox-section5{
+    margin: 90px 105px 0 105px;
+}
+
+.card-section5-body{
+    margin: 30px;
+    padding: 30px;
+    width: 350px;
+}
+
+.card-symbol{
+    margin-bottom: 20px;
+}
+
+/* Section6 */
+
+.section6{
+    background-color: black;
+    text-align: center;
+    width: 100%;
+}
+
+.result-heading{
+    color: white;
+    font: 50px Squada One;
+    padding-top: 50px;
+    text-transform: uppercase;
+}
+
+.flexbox-section6{
+    justify-content: center;
+
+}
+
+.result-div{
+   margin: 40px 70px; 
+   padding: 0 22px;
+}
+
+.result-amount{
+    color: green;
+    font: 2.5rem Ubuntu;
+}
+
+.field-name{
+    color: white;
+    font : 2rem Ubuntu;
+    text-transform: uppercase;
+}
+
+.text-section6{
+    color: white;
+    font-size: 22px;
+    margin: 22px;
+}
+
+.btn-section6{
+    margin-bottom:50px;
+    margin-top: 20px;
+}
+
+/* Section7 */
+
+.carousel-item{
+    background-color: white;
+    margin: 33px 0 20px;
+}
+
+/* Section8 */
+
+.books-flexbox{
+    background-color: rgb(50 162 228);
+    margin-top: 22px;
+    text-align: center;
+}
+
+.heading-books{
+    color: white;
+    font : 3rem Squada One;
+    padding: 50px 0 30px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.books-flexbox > button{
+    margin: 20px 0 50px;
+}
+
+/* Section9 */
+
+.articles-flexbox{
+    flex-wrap: wrap;
+    margin: auto;
+    padding-top: 97px;
+    width: 80%;
+}
+
+.heading-articles{
+    color: black;
+    font : 3rem Ubuntu;
+    text-transform: uppercase;
+}
+
+.articles{
+    border: 2px solid rgb(50 162 228);
+    border-top: 6px solid rgb(50 162 228);
+    margin: 33px;
+    padding: 22px;
+    width: 510px;
+}
+
+.heading-articles{
+    color: black;
+    font : 2rem Squada One;
+    text-transform: uppercase;
+}
+
+.date-style{
+    color: grey;
+    font-size: small;
+}
+
+.article-cards{
+    
+    flex-wrap: wrap;
+}
+
+.article-cards > div{
+    flex-wrap: wrap;
+}
+
+.body-articles{
+    font-size: 17pxx;
+}
+
+.read-more{
+    border: 1.5px solid rgb(105, 104, 104);
+    border-radius: 22px;
+    color: black;
+    font-weight: bold;
+    padding: 8px 25px;
+    text-transform: uppercase;
+}
+
+.logo-img{
+    flex-wrap: wrap;
+    margin-top: 100px;
+    padding: 0 140px;
+    text-align: center;
+}
+
+.logo-img > img{
+    height: 100px;
+    margin: 25px 15px;
+    padding: 10px 50px;
+    width: 270px;
+}
+
+.footer{
+    background-color: rgb(219, 217, 217);
+}
+
+.footer-text{
+    color: black;
+    font : 3rem Squada One;
+    padding: 70px 0 0;
+    text-transform: uppercase;
+}
+
+.footer > button{
+    margin-top: 0;
+}
+
+.contact-text{
+    padding: 0 50px;
+}
+
+.contact-text > p{
+    text-align: left;
+}
+
+.social-icons{
+    padding: 0 50px;
+    text-align: right;
+}
+
+
+@media (max-width: 480px) {
+    .top-navbar-list {
+        margin-left: 20px;
+    }
+    .nav-btn {
+        margin-left: 0;
+    }
+
+    .section2{
+        height:50vh
+    }
+    .section2-text1 {
+        font: 30px Squada One;
+        padding: 90px 0 0 54px;
+    }
+    .section2-text2 {
+        font: 27px Ubuntu;
+        padding-left: 54px;
+    }
+    .btn-consultation {
+        font-size: 11px;
+        padding: 8px 25px;
+      
+    }
+    .btn-section2 {
+        margin: 0 0 0 54px;
+    }
+    .heading-text{
+        font-size: 58px;
+    }
+    .pyramid-img{
+        width: 100%;
+    }
+    .section4{
+        height: 330px;
+    }
+    .card-section4{
+        width:20rem;
+    }
+    .card-title-section4{
+        font-size: 32px;
+    }
+    .card-text-section4 {
+        font-size: 15px;
+        padding-right: 0px;
+    }
+    .arrow-img{
+        display: none;
+        left: 0;
+    }
+    .flexbox-section5 {
+        margin:0;
+    }
+    .result-div{
+        margin: 5px 0;
+    }
+    .result-heading{
+        font-size: 40px;
+    }
+    .text-section6{
+        font-size: 15px;
+    }
+    .articles{
+        margin: 15px 0 0;
+    }
+    .logo-img{
+        padding: 0 72px;
+        margin-top: 30px;
+    }
+    .footer-text{
+        font-size: 2rem;
+    }
+    .btn-section6 {
+        margin-bottom: 34px;
+        margin-top: 20px;
+    }
+  }
